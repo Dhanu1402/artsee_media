@@ -52,8 +52,7 @@ function LikeButton({
 
       {optimisticLikes.length > 0 && (
         <p className="text-sm font-bold dark:text-white">
-          {optimisticLikes.length}
-
+          {optimisticLikes.length}{' '}
           {optimisticLikes.length === 1 ? 'like' : 'likes'}
         </p>
       )}

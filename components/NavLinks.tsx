@@ -8,6 +8,7 @@ import {
   MessageCircle,
   PlusSquare,
   Search,
+  Store,
 } from 'lucide-react';
 import Link from 'next/link';
 import { buttonVariants } from './ui/button';
@@ -16,6 +17,12 @@ import { cn } from '@/lib/utils';
 
 const links = [
   { name: 'Home', href: '/dashboard', icon: Home },
+  {
+    name: 'Store',
+    href: 'https://ecomm-store-psi.vercel.app/',
+    icon: Store,
+    hideOnMobile: true,
+  },
   {
     name: 'Search',
     href: '/dashboard/search',

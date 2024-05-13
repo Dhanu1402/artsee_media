@@ -21,7 +21,6 @@ const links = [
     name: 'Store',
     href: 'https://ecomm-store-psi.vercel.app/',
     icon: Store,
-    hideOnMobile: true,
   },
   {
     name: 'Search',
@@ -29,7 +28,12 @@ const links = [
     icon: Search,
     hideOnMobile: true,
   },
-  { name: 'Explore', href: '/dashboard/explore', icon: Compass },
+  {
+    name: 'Explore',
+    href: '/dashboard/explore',
+    icon: Compass,
+    hideOnMobile: true,
+  },
   {
     name: 'Reels',
     href: '/dashboard/reels',
